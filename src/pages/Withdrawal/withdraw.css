@@ -1,3 +1,7 @@
-.withdraws{
+.withdrawals{
     margin: 5% 0 0 20%;
+}
+.detail{
+    text-decoration: none;
+    color: #fff;
 }

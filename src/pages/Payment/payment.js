@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
+import { Link } from '@reach/router';
 import './payment.css';
 
 const Payment = () => {
@@ -24,7 +25,7 @@ const Payment = () => {
                           </div>
                       </div>
                   </div>
-                  <button className="button">Deposit Funds</button>
+                  <button className="button"><Link to="/payment-details" className="detail">Deposit Funds</Link></button>
               </div>
                <table>
                    <thead>

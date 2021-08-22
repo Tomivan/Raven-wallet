@@ -1,3 +1,4 @@
+import { Link } from '@reach/router';
 import React from 'react';
 import Layout from '../../components/layout/layout';
 import './withdraw.css';
@@ -24,7 +25,7 @@ const Withdrawal = () => {
                           </div>
                       </div>
                   </div>
-                  <button className="button">Withdraw Funds</button>
+                  <button className="button"><Link to="/withdrawal-details" className="detail">Withdraw Funds</Link></button>
               </div>
                <table>
                    <thead>
@@ -55,7 +56,7 @@ const Withdrawal = () => {
                            <td><span className="success">Successful</span></td>
                        </tr>
                        <tr>
-                           <td>12 Jul</td>
+                           <td>24 Jul</td>
                            <td>14:22</td>
                            <td>Withdrew #2,000 from Wallet</td>
                            <td><span className="success">Successful</span></td>
