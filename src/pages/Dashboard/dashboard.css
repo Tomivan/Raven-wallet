@@ -12,3 +12,14 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     margin-right: 3%;
 }
+h4{
+    text-align: left;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.card-icon{
+    color: #ee312a;
+}

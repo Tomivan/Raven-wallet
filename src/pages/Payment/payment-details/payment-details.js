@@ -12,10 +12,12 @@ const PaymentDetails = () => {
             <div className="details">
             <label>Amount</label>
             <input type="text" placholder="Enter Amount to withdraw" />
-            <label>Account Number</label>
-            <input type="text" placeholder="Enter your Account Number" />
-            <label>Bank</label>
-            <input type="text" placeholder="Enter bank name" />
+            <label>Card Number</label>
+            <input type="number" placeholder="**** **** **** ***" />
+            <label>Expiration Date</label>
+            <input type="date" placeholder="mm/yyyy" />
+            <label>CVC</label>
+            <input type="number" placeholder="123" />
             <button className="continue" onClick={() => setModalIsOpen(true)}>Continue</button>
             <Modal className="bg-modal" isOpen={modalIsOpen}>
                 <div className="warning">

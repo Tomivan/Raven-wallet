@@ -25,8 +25,8 @@ const Sidebar = () => {
             element={Link}
             to={i.path}
             key={i.name}
-           className="link">
-            {i.name}
+           >
+            {i.name }
           </SideNavLink>
         ))}
             </SideNavItems>

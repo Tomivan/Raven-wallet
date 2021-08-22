@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
 import { Link } from '@reach/router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExchangeAlt, faWallet} from '@fortawesome/free-solid-svg-icons';
 import './transfer.css';
 
 const Transfer = () => {
@@ -14,14 +16,14 @@ const Transfer = () => {
                           <h4>Wallet balance</h4>
                           <div className="bottom">
                               <p>#633,140</p>
-                              <img src="" alt="" />
+                              <FontAwesomeIcon icon={faWallet} className="card-icon" />
                           </div>
                       </div>
                       <div className="card">
                           <h4>Total Withdrawals</h4>
                           <div className="bottom">
                               <p>#530,000</p>
-                              <img src="" alt="" />
+                              <FontAwesomeIcon icon={faExchangeAlt} className="card-icon"/>
                           </div>
                       </div>
                   </div>

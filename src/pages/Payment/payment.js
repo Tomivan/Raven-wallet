@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
 import { Link } from '@reach/router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoneyBillWave, faWallet} from '@fortawesome/free-solid-svg-icons';
 import './payment.css';
 
 const Payment = () => {
@@ -14,14 +16,14 @@ const Payment = () => {
                           <h4>Wallet balance</h4>
                           <div className="bottom">
                               <p>#633,140</p>
-                              <img src="" alt="" />
+                              <FontAwesomeIcon icon={faWallet} className="card-icon"/>
                           </div>
                       </div>
                       <div className="card">
                           <h4>Total Deposits</h4>
                           <div className="bottom">
                               <p>#1,398,000</p>
-                              <img src="" alt="" />
+                              <FontAwesomeIcon icon={faMoneyBillWave} className="card-icon"/>
                           </div>
                       </div>
                   </div>

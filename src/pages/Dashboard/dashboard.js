@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../../components/layout/layout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExchangeAlt, faMoneyBillWave, faMoneyCheck, faWallet} from '@fortawesome/free-solid-svg-icons';
 import './dashboard.css';
 
 const Dashboard = () => {
@@ -12,28 +14,28 @@ const Dashboard = () => {
                        <h4>Total Deposits</h4>
                        <div className="bottom">
                            <p>#1,398,000</p>
-                           <img src="" alt="" />
+                           <FontAwesomeIcon icon={faMoneyBillWave} className="card-icon"/>
                        </div>
                    </div>
                    <div className="card">
                        <h4>Total Transfers</h4>
                        <div className="bottom">
                            <p>#234,860</p>
-                           <img src="" alt="" />
+                           <FontAwesomeIcon icon={faExchangeAlt} className="card-icon"/>
                        </div>
                    </div>
                    <div className="card">
                        <h4>Total Withdrawals</h4>
                        <div className="bottom">
                            <p>#530,000</p>
-                           <img src="" alt="" />
+                           <FontAwesomeIcon icon={faMoneyCheck} className="card-icon"/>
                        </div>
                    </div>
                    <div className="card">
                        <h4>Wallet balance</h4>
                        <div className="bottom">
                            <p>#633,140</p>
-                           <img src="" alt="" />
+                           <FontAwesomeIcon icon={faWallet} className="card-icon" />
                        </div>
                    </div>
                 </div>
