@@ -1,0 +1,44 @@
+.payments{
+    margin: 5% 0 0 20%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.cards-box{
+    display: flex;
+}
+.button{
+    background: #00425f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 12vw;
+    margin: 5% 5% 0 0;
+}
+th, td {
+    padding: 1em;
+}
+th{
+    background-color: #0000001e;
+}
+table{
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-top: 10%;
+    width: 95%;
+}
+.success{
+    background: green;
+    color: #fff;
+    padding: 0.3em;
+}
+.failed{
+    background: red;
+    color: #fff;
+    padding: 0.3em;
+}

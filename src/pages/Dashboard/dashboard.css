@@ -1,0 +1,14 @@
+.dashboard{
+    margin: 5% 0 0 20%;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 18vw;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    margin-right: 3%;
+}
